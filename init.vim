@@ -9,7 +9,7 @@ set tabstop=4 softtabstop=4
  set smartcase
  set directory^=$HOME/.vim/tmp//
  set incsearch
- set colorcolumn=80
+ set colorcolumn=120
  set nu
  set relativenumber
  set scrolloff=5
@@ -22,16 +22,19 @@ set tabstop=4 softtabstop=4
      Plug 'tpope/vim-fugitive'
      Plug 'preservim/nerdtree'
      Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
+     Plug 'MaxMEllon/vim-jsx-pretty'
      Plug 'ryanoasis/vim-devicons'
      Plug 'tpope/vim-surround'
      Plug 'alvan/vim-closetag'
      Plug 'tpope/vim-commentary'
      Plug 'vimwiki/vimwiki'
+     Plug 'altercation/vim-colors-solarized'
 
 
 call plug#end()
 
 colorscheme gruvbox
+" colorscheme solarized
 set background=dark
 
 inoremap jk <ESC>
